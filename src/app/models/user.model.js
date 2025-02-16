@@ -6,7 +6,7 @@ const UserSchema = new mongoose.Schema({
     mobile: { type: Number, required: true },
     age: { type: Number, required: true },
     interest: { type: [String], required: true },
-    status: { type: String, required: true, default: "active" }
+    status: { type: String, required: true, default: "ACTIVE" }
 }, { timestamps: true });
 
 export default mongoose.models.User || mongoose.model("User", UserSchema);
