@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.buttonTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
