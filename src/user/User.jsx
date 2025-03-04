@@ -56,7 +56,9 @@ function User() {
     const [userId, setUserId] = useState('');
     const [messageApi, contextHolder] = message.useMessage();
 
-    const baseUrl = "http://localhost:3000/api/user"
+    // const baseUrl = "http://localhost:3000/api/user"
+
+    const baseUrl = "https://user-crud-assignment-nextjs.vercel.app/api/user"
 
 
     useEffect(() => {
